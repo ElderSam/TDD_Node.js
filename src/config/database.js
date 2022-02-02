@@ -1,10 +1,10 @@
 module.exports = {
 	host: "127.0.0.1",
-	username: "docker",
-	password: "docker",
-	database: "nodeauth",
+	username: "postgres",
+	password: "admin",
+	database: "nodeauth-TDD",
 	dialect: "postgres",
-	operatorsAliases: false, // configuração para desabilitar um warning do Sequelize
+	// operatorsAliases: false, // configuração para desabilitar um warning do Sequelize
 	logging: false, //  não mostrar muitos logs enquando rodamos as migrations
   define: {
     timestamps: true, // força com que toda tabela criada no banco, venha com campo 'CREATED AT' & 'UPDATED AT'

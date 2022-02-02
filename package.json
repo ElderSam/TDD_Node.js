@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "description": "Test-driven Development in a Node.js Application"
+  "description": "Test-driven Development in a Node.js Application",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }

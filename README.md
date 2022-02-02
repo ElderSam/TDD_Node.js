@@ -13,9 +13,14 @@ Dentro de `src/`;
 ``routes.js`` => rotas da aplicação
 
 --------------------
-## Instaling sequelize & other libs
-``yarn add sequelize pg``
+## Working with Sequelize
+### Instaling sequelize & other libs
+``yarn add sequelize pg`` (I'm using PostgreSQL)
 ``yarn add sequelize-cli -D``
+
+### Sequelize init
+``yarn sequelize init``
+cria arquivos `config/config.json` & `models/index.js` & the emptys folders `migrations/` and `seeders/`;
 
 
 ## Libraries

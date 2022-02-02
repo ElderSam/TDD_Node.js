@@ -1,0 +1,7 @@
+{
+  "name": "tdd_node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Test-driven Development in a Node.js Application"
+}

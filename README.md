@@ -12,7 +12,7 @@ Dentro de `src/`;
 ``server.js`` => alocar portas
 ``routes.js`` => rotas da aplicação
 
---------------------
+----------------------------------------------
 ## Working with Sequelize
 ### Instaling sequelize & other libs
 ``yarn add sequelize pg`` (I'm using PostgreSQL)
@@ -22,6 +22,10 @@ Dentro de `src/`;
 ``yarn sequelize init``
 cria arquivos `config/config.json` & `models/index.js` & the emptys folders `migrations/` and `seeders/`;
 
+### running migrations
+``yarn sequelize migration:create --name=create-users``
+
+----------------------------------------------
 
 ## Libraries
 ### Sequelize

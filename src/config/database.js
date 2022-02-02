@@ -1,0 +1,14 @@
+module.exports = {
+	host: "127.0.0.1",
+	username: "docker",
+	password: "docker",
+	database: "nodeauth",
+	dialect: "postgres",
+	operatorsAliases: false, // configuração para desabilitar um warning do Sequelize
+	logging: false, //  não mostrar muitos logs enquando rodamos as migrations
+  define: {
+    timestamps: true, // força com que toda tabela criada no banco, venha com campo 'CREATED AT' & 'UPDATED AT'
+    underscored: true, // força com que a tabela seja criada no formato 'underscore/underline' e não no estilo camel case
+    underscoredAll: true
+  }
+};

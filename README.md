@@ -40,6 +40,7 @@ after create your table you can access in pgAdmin -> Databases -> 'your_database
 ## Libraries
 
 # Jest
+https://jestjs.io/
 Node.js unit tests, mocks, coverage, etc.
 
 1. install jest

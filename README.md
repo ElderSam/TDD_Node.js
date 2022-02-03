@@ -37,6 +37,11 @@ DB_PASS=***
 DB_NAME=***
 ``
 
+-----------
+
+### Environment Variables in Windows
+https://www.edureka.co/community/77202/how-can-i-set-node-env-production-on-windows
+
 ----------------------------------------------
 ## Working with Sequelize
 ### Instaling sequelize & other libs

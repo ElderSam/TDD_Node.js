@@ -47,6 +47,10 @@ lib para o sequelize lidar com o Banco de Dados PostgreSQL
 ### sequelize-cli;
 ajuda a lidar com a criação das migrations, que são os arquivos que vão controlar a versão das nossas tabelas do BD
 
+---------------------
+## test user creation
+``node src/server.js``
+
 -----------------------------
 ## Tutorial link
-https://www.youtube.com/watch?v=2G_mWfG0DZE&list=PLmX5_ydv5jg-WRtaCb72IbYiuYvIacooR&index=3
+https://www.youtube.com/watch?v=2G_mWfG0DZE&list=PLmX5_ydv5jg-WRtaCb72IbYiuYvIacooR&index=5&t=1240s

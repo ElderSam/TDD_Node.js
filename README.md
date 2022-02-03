@@ -26,7 +26,7 @@ Node.js unit tests, mocks, coverage, etc.
 
 3. configure your `jest.config.js` & create your test in __tests__/integration or ___tests__/unit
 4. run your tests
-``yarn jest``
+``yarn test``
 
 NOTE: you should create your `.env` file.
 example; 

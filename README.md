@@ -35,7 +35,11 @@ DB_HOST=127.0.0.1
 DB_USER=***
 DB_PASS=***
 DB_NAME=***
-``
+```
+
+## Testing routes with Supertest
+1. install;
+``yarn add supertest -D``
 
 -----------
 

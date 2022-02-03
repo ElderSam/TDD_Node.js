@@ -6,7 +6,8 @@
   "description": "Test-driven Development in a Node.js Application",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js --ignore __tests__"
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.2",

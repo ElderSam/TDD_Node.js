@@ -28,6 +28,15 @@ Node.js unit tests, mocks, coverage, etc.
 4. run your tests
 ``yarn jest``
 
+NOTE: you should create your `.env` file.
+example; 
+```
+DB_HOST=127.0.0.1
+DB_USER=***
+DB_PASS=***
+DB_NAME=***
+``
+
 ----------------------------------------------
 ## Working with Sequelize
 ### Instaling sequelize & other libs

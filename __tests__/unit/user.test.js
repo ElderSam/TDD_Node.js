@@ -6,7 +6,7 @@ const truncate = require("../utils/truncate");
 describe("", () => {
 	beforeEach(async () => {
 		await truncate();
-	});
+	})
 
 	it("should encrypt user password", async () => {
 		const user = await User.create({
@@ -15,8 +15,8 @@ describe("", () => {
 			password: "123456",
 		});
 
-		const hash = await bcrypt.hash("123456", 8);
+		const compareHah = await bcrypt.compare('123456', user.password_hash)
 
-        expect(user.password_hash).toBe(hash);
+        expect(compareHah).toBe(true);
 	});
 });

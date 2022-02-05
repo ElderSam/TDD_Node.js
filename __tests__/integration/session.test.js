@@ -71,4 +71,16 @@ describe("Authentication", () => {
 
 		expect(response.status).toBe(401);
 	});
+
+	it("should not be able to access private routes when User Not Found", async () => {
+		const user = factory.create("User");
+
+		const { password } = user;
+		const response = await request(app).post("/sessions").send({
+			email: "test@fake.com",
+			password,
+		});
+
+		expect(response.status).toBe(401)
+	});
 });

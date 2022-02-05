@@ -37,6 +37,11 @@ DB_PASS=***
 DB_NAME=***
 ```
 
+### tests coverage
+run ``yarn jest`` and you can see the test coverage of your code.
+You can see each file and line that need coverage accessing `__tests__/coverage/lcov-report/index.html`
+
+----
 ## Testing routes with Supertest
 1. install;
 ``yarn add supertest -D``
